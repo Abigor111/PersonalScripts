@@ -1,7 +1,7 @@
 import os
 
 def create_new_script():
-    print("This script was made by Igor Carvalheira. The objective is to create a new folder thaat has the necessary files to create a new script for this project.")
+    print("This script was made by Abigor111. The objective is to create a new folder that has the necessary files to create a new script for this project.")
     script_name = input("Please write the name of the new script: ")
     os.makedirs(script_name, exist_ok=True)
     answer = input("Do you want to generate the additional files, like the python file and md file? yes(y) no(n)")
